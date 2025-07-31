@@ -3,7 +3,7 @@ WITH dept_locations AS (
     d.department_id,
     d.location_id
   FROM HR.DEPARTMENTS d
-),
+), 
 emp_locations AS (
   SELECT 
     e.employee_id,
